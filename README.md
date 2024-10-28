@@ -35,4 +35,4 @@ Please refer to the paper for the underlying assumptions and equations.
 
 Authors: Matilde Torrassa and Gabriele Vissio
 
-For more information please contact XXX
+For more information please contact Matilde Torrassa (matilde.torrassa@cimafoundation.org) concerning the Python code and Gabriele Vissio (gabriele.vissio@cnr.it) concerning the Fortran code.
