@@ -1,0 +1,47 @@
+{
+    "algorithm": {
+        "general": {
+            "title": "Algorithm to generate and simulate random species ecosystems with fire-vegetation feedback",
+            "experiment": "community",
+            "generation": true,
+            "save_files": false,
+            "simulation": false,
+            "figure": false
+        },
+        "generation": {
+            "distribution": "MED",
+            "n_species": 10,
+            "noise": 0,
+            "n_communities": 300
+        },
+        "simulation": {
+            "runtime": 10000,
+            "initT": 50,
+            "repetition": 1,
+            "delta_day": 1,
+            "epsilon": 0.001,
+            "minfirerettime": 1,
+            "firevf": 100000,
+            "n_coms": [0],
+            "n_init": []
+        }
+    },
+    "output": {
+      "data": {
+        "path": "../IDH/data/{}{}/",
+        "file_str": "{}files_{}pft-{}y-{}run-{}noise.dat",
+        "file_info": "{}-{}{}-n{}-{}-info.dat",
+        "file_bave": "{}-{}{}-n{}-{}-bave-{}y.dat",
+        "file_fave": "{}-{}{}-n{}-{}-fave-{}y.dat"
+      },
+      "figure": {
+        "path": "../IDH/figure/{}{}/",
+        "fig_name": "{}-{}{}-n{}-{}-{}y-init{}.png"
+      }
+    },
+    "log": {
+      "filename": "log_file.txt",
+      "folder": "log_folder"
+    }
+  }
+  
