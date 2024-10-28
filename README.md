@@ -15,7 +15,7 @@ The code is provided in Python and in Fortran language.
 
 ### Python Code
 
-Python/ folder contains:
+```Simulation_Python/``` folder contains:
 
 - ```biofire_main.py```: main file for generating the plant communities and simulating the time series of vegetation cover and fires.
 - ```biofire_tools.py```: file containing the functions and subroutines used in the main.
@@ -26,7 +26,7 @@ General command line:
 
 ### Fortran Code
 
-
+```Simulation_Fortran/``` folder contains:
 
 ## References and Contacts
 This code has been developed within the manuscript: XXX
