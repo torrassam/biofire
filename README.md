@@ -1,4 +1,4 @@
-# IDH emergence from a vegetation-fires model
+# Biodiversity in fire-vegetation model
 
 This repository provides the code to model plant-fire relationship in the Mediterranean and Boreal communities, as in xxx.
 
